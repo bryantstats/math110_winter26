@@ -74,9 +74,9 @@ ggplot(df, aes(x = "", y = Percentage, fill = Grades)) +
   theme_void()
 ```
 
--   *Assignments*: Tentatively, the assignments and case studies will be done during class where you can ask questions.
+-   *Assignments*: Tentatively, assignments will be completed during class, where you will have the opportunity to ask questions.
 
--   *Attendance*: The class have totally 15 meetings. Each time you attend a meeting, your total grade will be increased by 1.5%.
+-   *Attendance*: Attendance will be taken at every class meeting. Regular attendance is essential—not only for earning attendance points, but also for successfully completing assignments.
 
 ## Grades Scale
 
