@@ -59,8 +59,8 @@ library(ggplot2)
 library(dplyr)
 # Variables
 
-Percentage = c(.4,.4, .2)
-Grades = c('Assignments','Case-Studies','Attendance')
+Percentage = c(.8, .2)
+Grades = c('Assignments','Attendance')
 
 df = data.frame(Grades = Grades, Percentage = Percentage, labels = paste0(Percentage*100, "%"))
 
@@ -74,7 +74,7 @@ ggplot(df, aes(x = "", y = Percentage, fill = Grades)) +
   theme_void()
 ```
 
--   *Assignments and Case-studies*: Tentatively, the assignments and case studies will be done during class where you can ask questions.
+-   *Assignments*: Tentatively, the assignments and case studies will be done during class where you can ask questions.
 
 -   *Attendance*: The class have totally 15 meetings. Each time you attend a meeting, your total grade will be increased by 1.5%.
 
